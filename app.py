@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load trained model
-with open("model.pkl", "rb") as file:
+with open("cancer_pred (1).pkl", "rb") as file:
     model = pickle.load(file)
 
 st.set_page_config(page_title="Lung Cancer Prediction", page_icon="🫁")
